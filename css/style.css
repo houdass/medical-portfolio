@@ -1259,8 +1259,8 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_about.scss */
 .welcome_area {
-  padding-top: 120px;
-  padding-bottom: 220px;
+  padding-top: 40px;
+  padding-bottom: 10px;
 }
 
 @media (max-width: 767px) {
@@ -1281,66 +1281,6 @@ h3 {
   /* line 1, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_about.scss */
   .welcome_area {
     padding-bottom: 100px;
-  }
-}
-
-/* line 13, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_about.scss */
-.welcome_area .welcome_thumb {
-  position: relative;
-}
-
-/* line 15, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_about.scss */
-.welcome_area .welcome_thumb .thumb_1 {
-  left: 0;
-}
-
-/* line 17, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_about.scss */
-.welcome_area .welcome_thumb .thumb_1 img {
-  width: 60%;
-}
-
-@media (max-width: 767px) {
-  /* line 17, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_about.scss */
-  .welcome_area .welcome_thumb .thumb_1 img {
-    width: 100%;
-  }
-}
-
-/* line 24, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_about.scss */
-.welcome_area .welcome_thumb .thumb_2 {
-  position: absolute;
-  bottom: -94px;
-  right: -37px;
-}
-
-@media (max-width: 767px) {
-  /* line 24, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_about.scss */
-  .welcome_area .welcome_thumb .thumb_2 {
-    position: absolute;
-    left: 0;
-    top: 0;
-    display: none;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 24, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_about.scss */
-  .welcome_area .welcome_thumb .thumb_2 {
-    position: absolute;
-    right: 0;
-    bottom: -40px;
-  }
-}
-
-/* line 39, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_about.scss */
-.welcome_area .welcome_thumb .thumb_2 img {
-  width: 89%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 39, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_about.scss */
-  .welcome_area .welcome_thumb .thumb_2 img {
-    width: 100%;
   }
 }
 
@@ -1437,7 +1377,7 @@ h3 {
 
 /* line 111, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_about.scss */
 .business_expert_area {
-  padding-bottom: 100px;
+  // padding-bottom: 100px;
 }
 
 @media (max-width: 767px) {
@@ -1538,13 +1478,6 @@ h3 {
   display: flex;
   align-content: center;
   justify-content: space-between;
-}
-
-/* line 185, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_about.scss */
-.border_bottom {
-  border-bottom: 1px solid #E8E8E8;
-  padding-bottom: 60px;
-  padding-top: 60px;
 }
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_offers.scss */
