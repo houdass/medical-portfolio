@@ -35,23 +35,23 @@ $(document).ready(function(){
             },
             messages: {
                 name: {
-                    required: "The name is required",
-                    minlength: "your name must consist of at least 2 characters"
+                    required: "The name is required.",
+                    minlength: "your name must consist of at least 2 characters."
                 },
                 subject: {
-                    required: "The subject is required",
-                    minlength: "your subject must consist of at least 4 characters"
+                    required: "The subject is required.",
+                    minlength: "your subject must consist of at least 4 characters."
                 },
                 number: {
-                    required: "The number is required",
-                    minlength: "your Number must consist of at least 5 characters"
+                    required: "The number is required.",
+                    minlength: "your Number must consist of at least 5 characters."
                 },
                 email: {
-                    required: "no email, no message"
+                    required: "The email is required."
                 },
                 message: {
-                    required: "The messqge is required",
-                    minlength: "Your email is short"
+                    required: "The messqge is required.",
+                    minlength: "Your email is short."
                 }
             },
             submitHandler: function(form) {
