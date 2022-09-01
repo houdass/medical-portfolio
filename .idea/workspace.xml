@@ -2,9 +2,94 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="885a3197-9789-48c4-8656-20baa2d497a4" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/about/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/about/22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/about/business.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/banner/emergency-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/blog/author.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/blog/blog_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/blog/blog_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/blog/blog_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/blog/blog_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/blog/learn_about_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/blog/single_blog_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/blog/single_blog_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/blog/single_blog_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/blog/single_blog_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/blog/single_blog_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/blog/slide_thumb_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/comment/comment_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/comment/comment_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/comment/comment_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/elements/a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/elements/a2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/elements/d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/elements/disabled-check.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/elements/disabled-radio.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/elements/f1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/elements/f2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/elements/f3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/elements/f4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/elements/f5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/elements/f6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/elements/f7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/elements/f8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/elements/g1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/elements/g2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/elements/g3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/elements/g4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/elements/g5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/elements/g6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/elements/g7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/elements/g8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/elements/primary-check.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/elements/primary-radio.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/elements/success-check.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/elements/success-radio.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/experts/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/experts/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/experts/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/experts/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/experts/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/experts/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/experts/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/experts/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/experts/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/footer_logo3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/instragram/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/instragram/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/instragram/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/instragram/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/instragram/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/offers/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/offers/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/offers/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post/next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post/post_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post/post_10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post/post_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post/post_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post/post_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post/post_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post/post_6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post/post_7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post/post_8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post/post_9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post/preview.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/rooms/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/rooms/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/rooms/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/rooms/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/testmonial/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/testmonial/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/video/video.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/banner/emergency-2.png" afterPath="$PROJECT_DIR$/img/banner/emergency-2.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/contact.js" afterPath="$PROJECT_DIR$/js/contact.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_emergency_contact.scss" afterPath="$PROJECT_DIR$/scss/_emergency_contact.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,21 +103,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="677" column="62" lean-forward="false" selection-start-line="677" selection-start-column="56" selection-end-line="677" selection-end-column="62" />
+            <state relative-caret-position="139">
+              <caret line="674" column="30" lean-forward="false" selection-start-line="674" selection-start-column="30" selection-end-line="674" selection-end-column="30" />
               <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1661888615000" expanded="true" signature="1225:1392" ph="..." />
-                <marker date="1661888615000" expanded="true" signature="1319:1347" ph="..." />
-                <marker date="1661888615000" expanded="false" signature="6165:9683" ph="..." />
+                <marker date="1662063627000" expanded="true" signature="1225:1392" ph="..." />
+                <marker date="1662063627000" expanded="true" signature="1319:1347" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mail-script.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/mail-script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_emergency_contact.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/_emergency_contact.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -40,8 +144,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="1480" column="1" lean-forward="false" selection-start-line="1480" selection-start-column="1" selection-end-line="1480" selection-end-column="1" />
+            <state relative-caret-position="114">
+              <caret line="5682" column="33" lean-forward="false" selection-start-line="5682" selection-start-column="33" selection-end-line="5682" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -50,8 +154,8 @@
       <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="406" column="45" lean-forward="true" selection-start-line="406" selection-start-column="8" selection-end-line="406" selection-end-column="45" />
+            <state relative-caret-position="-1629">
+              <caret line="406" column="45" lean-forward="false" selection-start-line="406" selection-start-column="8" selection-end-line="406" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -60,8 +164,28 @@
       <file leaf-file-name="contact_process.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact_process.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            <state relative-caret-position="30">
+              <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../docmed-master/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="330" column="5" lean-forward="true" selection-start-line="330" selection-start-column="5" selection-end-line="330" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -71,36 +195,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>medecin</find>
-      <find>about</find>
-      <find>welcome_docmed</find>
-      <find>padding-top: 120px;</find>
-      <find>welcome_thumb</find>
-      <find>Get in Touch</find>
-      <find>get in</find>
-      <find>contactez</find>
-      <find>contact_process</find>
-      <find>.select2</find>
-      <find>cors</find>
-      <find>come on, you have a name, don</find>
-      <find>come on</find>
-      <find>&lt;script src=&quot;js/contact.js&quot;&gt;&lt;/script&gt;</find>
-      <find>.business_expert_area</find>
-      <find>border_</find>
-      <find>border_bo</find>
       <find>social_lin</find>
       <find>face</find>
-      <find>contact.js</find>
-      <find>come on,</find>
       <find>linkedin</find>
       <find>twitter</find>
       <find>twit</find>
       <find>twi</find>
-      <find>linked</find>
       <find>ase enter a valid email address.</find>
       <find>ase enter a valid em</find>
       <find>shoert</find>
       <find>Your email is short</find>
+      <find>timeli</find>
+      <find>.business_info</find>
+      <find>urgence</find>
+      <find>078 870 31 55</find>
+      <find>depart</find>
+      <find>footer_lo</find>
+      <find>Pour tout contact d'urg</find>
+      <find>emergency-1</find>
+      <find>slide</find>
+      <find>linked</find>
+      <find>form</find>
+      <find>&lt;form</find>
+      <find>contact.js</find>
+      <find>contactfo</find>
+      <find>come on,</find>
+      <find>owl-carousel</find>
+      <find>mailchim</find>
+      <find>ajaxMailChimp</find>
+      <find>contact_proce</find>
+      <find>Replace this action with your own mailchim</find>
     </findStrings>
     <replaceStrings>
       <replace>078 870 31 55</replace>
@@ -128,8 +252,11 @@
         <option value="$PROJECT_DIR$/single-blog.html" />
         <option value="$PROJECT_DIR$/css/flaticon.css" />
         <option value="$PROJECT_DIR$/contact_process.php" />
+        <option value="$PROJECT_DIR$/scss/_emergency_contact.scss" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/mail-script.js" />
+        <option value="$PROJECT_DIR$/../docmed-master/contact_process.php" />
       </list>
     </option>
   </component>
@@ -175,11 +302,6 @@
               <item name="medical-portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="medical-portfolio" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="medical-portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medical-portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -203,6 +325,14 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/medical-portfolio/index.html" />
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -213,12 +343,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661453222908</updated>
-      <workItem from="1661453226171" duration="10910000" />
+      <workItem from="1661453226171" duration="17005000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10910000" />
+    <option name="totallyTimeSpent" value="17005000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -227,10 +357,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28125" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28125" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -332,44 +462,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="1480" column="1" lean-forward="false" selection-start-line="1480" selection-start-column="1" selection-end-line="1480" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="406" column="45" lean-forward="true" selection-start-line="406" selection-start-column="8" selection-end-line="406" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact_process.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        <state relative-caret-position="-1629">
+          <caret line="406" column="45" lean-forward="false" selection-start-line="406" selection-start-column="8" selection-end-line="406" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="677" column="62" lean-forward="false" selection-start-line="677" selection-start-column="56" selection-end-line="677" selection-end-column="62" />
+        <state relative-caret-position="139">
+          <caret line="674" column="30" lean-forward="false" selection-start-line="674" selection-start-column="30" selection-end-line="674" selection-end-column="30" />
           <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1661888615000" expanded="true" signature="1225:1392" ph="..." />
-            <marker date="1661888615000" expanded="true" signature="1319:1347" ph="..." />
-            <marker date="1661888615000" expanded="false" signature="6165:9683" ph="..." />
+            <marker date="1662063627000" expanded="true" signature="1225:1392" ph="..." />
+            <marker date="1662063627000" expanded="true" signature="1319:1347" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/mail-script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_emergency_contact.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="5682" column="33" lean-forward="false" selection-start-line="5682" selection-start-column="33" selection-end-line="5682" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="330" column="5" lean-forward="true" selection-start-line="330" selection-start-column="5" selection-end-line="330" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../docmed-master/contact_process.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact_process.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../docmed-master/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>

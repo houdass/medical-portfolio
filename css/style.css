@@ -2691,26 +2691,6 @@ h3 {
   top: 0;
 }
 
-/* line 49, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_tesmonial.scss */
-.testmonial_area .owl-carousel .owl-nav div {
-  left: 340px;
-}
-
-/* line 51, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_tesmonial.scss */
-.testmonial_area .owl-carousel .owl-nav div.owl-next {
-  right: 340px;
-  left: auto;
-}
-
-/* line 58, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_tesmonial.scss */
-.testmonial_bg_1 {
-  background-image: url(../img/testmonial/1.png);
-}
-
-/* line 61, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_tesmonial.scss */
-.testmonial_bg_2 {
-  background-image: url(../img/testmonial/2.png);
-}
 
 /* line 3, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_emergency_contact.scss */
 .Emergency_contact .single_emergency {
@@ -2764,7 +2744,7 @@ h3 {
 
 /* line 36, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_emergency_contact.scss */
 .emergency_bg_1 {
-  background-image: url(../img/banner/emergency-1.png);
+  background-image: url(../img/banner/emergency-1.jpeg);
 }
 
 /* line 39, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_emergency_contact.scss */
