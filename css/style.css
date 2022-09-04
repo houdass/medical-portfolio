@@ -841,19 +841,19 @@ h3 {
 }
 
 /* line 63, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
-.header-area .main-header-area .Appointment .socail_links ul li {
+.header-area .main-header-area .Appointment .social_links ul li {
   display: inline-block;
 }
 
 /* line 66, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
-.header-area .main-header-area .Appointment .socail_links ul li a {
+.header-area .main-header-area .Appointment .social_links ul li a {
   color: #A8A7A0;
   margin: 0 10px;
   font-size: 15px;
 }
 
 /* line 70, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
-.header-area .main-header-area .Appointment .socail_links ul li a:hover {
+.header-area .main-header-area .Appointment .social_links ul li a:hover {
   color: #fff;
 }
 
@@ -2292,25 +2292,20 @@ h3 {
   color: #5DB2FF;
 }
 
-/* line 141, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_footer.scss */
-.footer .socail_links {
-  margin-top: 47px;
-}
-
 @media (max-width: 767px) {
   /* line 141, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_footer.scss */
-  .footer .socail_links {
+  .footer .social_links {
     margin-top: 30px;
   }
 }
 
 /* line 147, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_footer.scss */
-.footer .socail_links ul li {
+.footer .social_links ul li {
   display: inline-block;
 }
 
 /* line 150, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_footer.scss */
-.footer .socail_links ul li a {
+.footer .social_links ul li a {
   font-size: 18px;
   color: #C3B2F0;
   line-height: 42px;
@@ -2326,7 +2321,7 @@ h3 {
 }
 
 /* line 163, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_footer.scss */
-.footer .socail_links ul li a:hover {
+.footer .social_links ul li a:hover {
   color: #fff !important;
 }
 
