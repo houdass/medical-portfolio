@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Dr Saif Al Jarrah</title>
-    <meta name="description" content="">
+    <meta name="description" content="Dr Saif Al Jarrah Spécialiste FMH en médecine interne générale Formation en gériatrie Expert en nutrition">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- <link rel="manifest" href="site.webmanifest"> -->
@@ -24,7 +24,6 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
-    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
 <body>
@@ -41,11 +40,11 @@
                 <div class="row">
                     <div class="col-xl-6 col-md-6">
                         <div class="social_media_links">
-                            <a href="#">
-                                <strong>fr</strong>
+                            <a href="#" id="fr" class="current-lang">
+                                FR
                             </a>
-                            <a href="#">
-                                en
+                            <a href="#" id="en">
+                                EN
                             </a>
                         </div>
                     </div>
@@ -98,7 +97,7 @@
                     <div class="col-xl-12">
                         <div class="slider_text ">
                             <h3><span>Dr. Saif Al Jarrah</span></h3>
-                            <h4>Spécialiste FMH en médecine interne générale</h4>
+                            <h4 class="translation french" id="translate-intro1">Spécialiste FMH en médecine interne générale</h4>
                             <h4>Formation en gériatrie</h4>
                             <h4>Expert en nutrition</h4>
                         </div>
@@ -117,20 +116,6 @@
             <div class="col-xl-12 col-lg-12">
                 <div class="welcome_info">
                     <h2>À propos de moi</h2>
-                    <!--<p>Mon but est que vous soyez en confiance pour exprimer vos doutes et vos émotions; mes objectifs
-                        sont les suivantes</p>
-                    <ul>
-                        <li><i class="flaticon-right"></i> Établir un plan de traitement qui tienne compte du contexte
-                            psychologique, familial et social du patient.
-                        </li>
-                        <li><i class="flaticon-right"></i> Procéder à des examens cliniques appropriés (auscultation,
-                            palpations) et paracliniques (radiographies, ponctions, prélèvements d'échantillons de sang,
-                            etc.), en interpréter les résultats.
-                        </li>
-                        <li><i class="flaticon-right"></i> Tenir compte des interactions entre les différents problèmes,
-                            poser un diagnostic et l'expliquer aux patient.
-                        </li>
-                    </ul>-->
                     Le Dr. Saif Al Jarrah est médecin spécialiste en médecine interne générale, avec une formation en gériatrie et la médecine d’urgence, il a été formé en Suisse, où il assume ses fonctions dans le secteur privé en cabinet et en consultations hospitalières.
 
                     <ul>
@@ -636,7 +621,7 @@ Trois-Chênes, HUG (GE)"
 <!-- welcome_area_end -->
 
 <!-- Emergency_contact start -->
-<div class="Emergency_contact">
+<!-- <div class="Emergency_contact">
     <div class="conatiner-fluid p-0">
         <div class="row no-gutters">
             <div class="col-xl-6">
@@ -663,7 +648,7 @@ Trois-Chênes, HUG (GE)"
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!-- Emergency_contact end -->
 
 <!-- footer start -->
@@ -730,54 +715,6 @@ Trois-Chênes, HUG (GE)"
 <!-- footer end  -->
 <!-- link that opens popup -->
 
-<!-- form itself end-->
-<form id="test-form" class="white-popup-block mfp-hide">
-    <div class="popup_box ">
-        <div class="popup_inner">
-            <h3>Make an Appointment</h3>
-            <form action="#">
-                <div class="row">
-                    <div class="col-xl-6">
-                        <input id="datepicker" placeholder="Pick date">
-                    </div>
-                    <div class="col-xl-6">
-                        <input id="datepicker2" placeholder="Suitable time">
-                    </div>
-                    <div class="col-xl-6">
-                        <select class="form-select wide" id="default-select" class="">
-                            <option data-display="Select Department">Department</option>
-                            <option value="1">Eye Care</option>
-                            <option value="2">Physical Therapy</option>
-                            <option value="3">Dental Care</option>
-                        </select>
-                    </div>
-                    <div class="col-xl-6">
-                        <select class="form-select wide" id="default-select" class="">
-                            <option data-display="Doctors">Doctors</option>
-                            <option value="1">Mirazul Alom</option>
-                            <option value="2">Monzul Alom</option>
-                            <option value="3">Azizul Isalm</option>
-                        </select>
-                    </div>
-                    <div class="col-xl-6">
-                        <input type="text" placeholder="Name">
-                    </div>
-                    <div class="col-xl-6">
-                        <input type="text" placeholder="Phone no.">
-                    </div>
-                    <div class="col-xl-12">
-                        <input type="email" placeholder="Email">
-                    </div>
-                    <div class="col-xl-12">
-                        <button type="submit" class="boxed-btn3">Confirm</button>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
-</form>
-<!-- form itself end -->
-
 <!-- JS here -->
 <script src="js/vendor/modernizr-3.5.0.min.js"></script>
 <script src="js/vendor/jquery-1.12.4.min.js"></script>
@@ -805,6 +742,7 @@ Trois-Chênes, HUG (GE)"
 <script src="js/mail-script.js"></script>
 
 <script src="js/main.js"></script>
+<script src="js/language-switcher.js"></script>
 <script>
   $('#datepicker').datepicker({
     iconsLibrary: 'fontawesome',
