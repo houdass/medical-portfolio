@@ -2,10 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="885a3197-9789-48c4-8656-20baa2d497a4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/language-switcher.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/owl.carousel.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/style.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/_about.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/_blog.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/_blog_part.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/_bradcam.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/_btn.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/_contact.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/_department.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/_elements.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/_emergency_contact.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/_experts.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/_extend.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/_footer.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/_header.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/_offers.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/_responsive.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/_section_title.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/_service.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/_slick-nav.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/_slider.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/_tesmonial.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/_varriable.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/style.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/theme-default.scss" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/logo.png" afterPath="$PROJECT_DIR$/img/logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/language-switcher.js" afterPath="$PROJECT_DIR$/js/language-switcher.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/owl.carousel.min.js" afterPath="$PROJECT_DIR$/js/owl.carousel.min.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,8 +51,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="332" column="13" lean-forward="false" selection-start-line="332" selection-start-column="1" selection-end-line="332" selection-end-column="13" />
+            <state relative-caret-position="73">
+              <caret line="756" column="23" lean-forward="false" selection-start-line="756" selection-start-column="23" selection-end-line="756" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -32,12 +61,25 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="721" column="43" lean-forward="true" selection-start-line="721" selection-start-column="43" selection-end-line="722" selection-end-column="46" />
+            <state relative-caret-position="262">
+              <caret line="681" column="0" lean-forward="true" selection-start-line="681" selection-start-column="0" selection-end-line="681" selection-end-column="0" />
               <folding>
-                <marker date="1662400674000" expanded="true" signature="1267:1434" ph="..." />
-                <marker date="1662400674000" expanded="true" signature="1361:1389" ph="..." />
+                <element signature="n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#iframe#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#p#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1662578653000" expanded="true" signature="1217:1384" ph="..." />
+                <marker date="1662578653000" expanded="true" signature="1311:1339" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="language-switcher.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/language-switcher.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="45" column="67" lean-forward="false" selection-start-line="45" selection-start-column="67" selection-end-line="45" selection-end-column="67" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -46,36 +88,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>button_lang</find>
-      <find>chin</find>
-      <find>_</find>
-      <find>spéciali</find>
-      <find>pour tout</find>
-      <find>boxed-btn</find>
-      <find>socail_links</find>
-      <find>boxed-btn3-white</find>
-      <find>/*</find>
-      <find>moni</find>
-      <find>CURRENT-LANG</find>
-      <find>changet</find>
-      <find>categories_post</find>
-      <find>flex-center-start</find>
-      <find>genric-btn</find>
-      <find>our_department_area</find>
-      <find>single_department</find>
-      <find>MENU</find>
-      <find>portfolio-cat</find>
-      <find>bg-img-1</find>
-      <find>bg-img-2</find>
-      <find>cta-bg-1</find>
-      <find>overlay_skyblue</find>
-      <find>pt-120</find>
-      <find>blog_part</find>
-      <find>bradcam_overlay</find>
-      <find>slicknav_menu</find>
-      <find>slicknav</find>
-      <find>book_now</find>
-      <find>BOOK_NO</find>
+      <find>home</find>
+      <find>profile</find>
+      <find>z-index:</find>
+      <find>-100</find>
+      <find>slider_active</find>
+      <find>z-index: -100;</find>
+      <find>z-index</find>
+      <find>2486</find>
+      <find>2486px</find>
+      <find>back</find>
+      <find>owl-</find>
+      <find>banner</find>
+      <find>nner/banner2.png</find>
+      <find>slider_bg_2</find>
+      <find>owl-stage</find>
+      <find>transform</find>
+      <find>translate3d</find>
+      <find>owl-carousel</find>
+      <find>single_slider</find>
+      <find>slider_text</find>
+      <find>slider</find>
+      <find>owl.</find>
+      <find>causes_slider</find>
+      <find>owl</find>
+      <find>il est</find>
+      <find>welcome_info</find>
+      <find>nav-item</find>
+      <find>.nav-item</find>
+      <find>présent</find>
+      <find>présent</find>
     </findStrings>
     <replaceStrings>
       <replace>078 870 31 55</replace>
@@ -88,6 +130,7 @@
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/js</dir>
+      <dir>$PROJECT_DIR$/css</dir>
       <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
@@ -101,7 +144,6 @@
         <option value="$PROJECT_DIR$/Doctors.html" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/blog.html" />
-        <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/elements.html" />
         <option value="$PROJECT_DIR$/single-blog.html" />
         <option value="$PROJECT_DIR$/css/flaticon.css" />
@@ -110,6 +152,8 @@
         <option value="$PROJECT_DIR$/js/mail-script.js" />
         <option value="$PROJECT_DIR$/../docmed-master/contact_process.php" />
         <option value="$PROJECT_DIR$/en.html" />
+        <option value="$PROJECT_DIR$/contact.html" />
+        <option value="$PROJECT_DIR$/js/owl.carousel.min.js" />
         <option value="$PROJECT_DIR$/js/language-switcher.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
@@ -159,14 +203,19 @@
             <path>
               <item name="medical-portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="medical-portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="medical-portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="medical-portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,12 +259,13 @@
       <option name="presentableId" value="Default" />
       <updated>1661453222908</updated>
       <workItem from="1661453226171" duration="18873000" />
-      <workItem from="1662292177413" duration="3678000" />
+      <workItem from="1662292177413" duration="8704000" />
+      <workItem from="1662578030620" duration="586000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22551000" />
+    <option name="totallyTimeSpent" value="28163000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -225,18 +275,18 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,20 +302,43 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3120">
+          <caret line="208" column="43" lean-forward="false" selection-start-line="208" selection-start-column="35" selection-end-line="208" selection-end-column="43" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#iframe#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#p#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1662578653000" expanded="true" signature="1217:1384" ph="..." />
+            <marker date="1662578653000" expanded="true" signature="1311:1339" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/language-switcher.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="67" lean-forward="false" selection-start-line="45" selection-start-column="67" selection-end-line="45" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85230">
           <caret line="5682" column="33" lean-forward="false" selection-start-line="5682" selection-start-column="33" selection-end-line="5682" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fr.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10125">
-          <caret line="675" column="47" lean-forward="false" selection-start-line="675" selection-start-column="43" selection-end-line="675" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/fr.html" />
     <entry file="file://$PROJECT_DIR$/Department.html" />
     <entry file="file://$PROJECT_DIR$/Doctors.html" />
     <entry file="file://$PROJECT_DIR$/about.html" />
@@ -284,7 +357,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -296,13 +368,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1629">
-          <caret line="406" column="45" lean-forward="false" selection-start-line="406" selection-start-column="8" selection-end-line="406" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/mail-script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -311,13 +376,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_emergency_contact.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_emergency_contact.scss" />
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -347,45 +406,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/en.html">
+    <entry file="file://$PROJECT_DIR$/en.html" />
+    <entry file="file://$PROJECT_DIR$/fr.html" />
+    <entry file="file://$PROJECT_DIR$/scss/_about.scss" />
+    <entry file="file://$PROJECT_DIR$/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="46" column="44" lean-forward="false" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+        <state relative-caret-position="31">
+          <caret line="406" column="45" lean-forward="false" selection-start-line="406" selection-start-column="8" selection-end-line="406" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fr.html">
+    <entry file="file://$PROJECT_DIR$/css/style.map" />
+    <entry file="file://$PROJECT_DIR$/js/owl.carousel.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="46" column="44" lean-forward="false" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
-          <folding />
+        <state relative-caret-position="108">
+          <caret line="5" column="11640" lean-forward="false" selection-start-line="5" selection-start-column="11640" selection-end-line="5" selection-end-column="11640" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/owl.carousel.min.css" />
     <entry file="file://$PROJECT_DIR$/js/language-switcher.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="31" column="67" lean-forward="false" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
+        <state relative-caret-position="675">
+          <caret line="45" column="67" lean-forward="false" selection-start-line="45" selection-start-column="67" selection-end-line="45" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="332" column="13" lean-forward="false" selection-start-line="332" selection-start-column="1" selection-end-line="332" selection-end-column="13" />
+        <state relative-caret-position="73">
+          <caret line="756" column="23" lean-forward="false" selection-start-line="756" selection-start-column="23" selection-end-line="756" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="721" column="43" lean-forward="true" selection-start-line="721" selection-start-column="43" selection-end-line="722" selection-end-column="46" />
+        <state relative-caret-position="262">
+          <caret line="681" column="0" lean-forward="true" selection-start-line="681" selection-start-column="0" selection-end-line="681" selection-end-column="0" />
           <folding>
-            <marker date="1662400674000" expanded="true" signature="1267:1434" ph="..." />
-            <marker date="1662400674000" expanded="true" signature="1361:1389" ph="..." />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#iframe#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#p#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1662578653000" expanded="true" signature="1217:1384" ph="..." />
+            <marker date="1662578653000" expanded="true" signature="1311:1339" ph="..." />
           </folding>
         </state>
       </provider>

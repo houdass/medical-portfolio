@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Dr Saif Al Jarrah</title>
-    <meta name="description" content="Dr Saif Al Jarrah Spécialiste FMH en médecine interne générale Formation en gériatrie Expert en nutrition">
+    <meta name="description"
+          content="Dr Saif Al Jarrah Spécialiste FMH en médecine interne générale Formation en gériatrie Expert en nutrition">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- <link rel="manifest" href="site.webmanifest"> -->
@@ -14,7 +15,6 @@
 
     <!-- CSS here -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/themify-icons.css">
@@ -62,24 +62,12 @@
         <div id="sticky-header" class="main-header-area">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-xl-3 col-lg-2">
-                        <div class="logo">
+                    <div class="col-12">
+                        <div class="logo text-center">
                             <a href="index.html">
                                 <img src="img/logo.png" alt="" height="40">
                             </a>
                         </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-7">
-                        <div class="main-menu  d-none d-lg-block">
-                            <nav>
-                            </nav>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 d-none d-lg-block">
-
-                    </div>
-                    <div class="col-12">
-                        <div class="mobile_menu d-block d-lg-none"></div>
                     </div>
                 </div>
             </div>
@@ -88,26 +76,18 @@
 </header>
 <!-- header-end -->
 
-<!-- slider_area_start -->
-<div class="slider_area">
-    <div class="slider_active owl-carousel" style="z-index: -100;margin-top: -200px;">
-        <div class="single_slider d-flex align-items-center slider_bg_2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="slider_text ">
-                            <h3><span>Dr. Saif Al Jarrah</span></h3>
-                            <h4 class="translation french" id="translate-intro1">Spécialiste FMH en médecine interne générale</h4>
-                            <h4>Formation en gériatrie</h4>
-                            <h4>Expert en nutrition</h4>
-                        </div>
-                    </div>
-                </div>
+<div class="jumbotron big-banner">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col intro-text">
+                <h1>Dr. Saif Al Jarrah</h1>
+                <h4 id="translate-intro1">Spécialiste FMH en médecine interne générale</h4>
+                <h4 id="translate-intro2">Formation en gériatrie</h4>
+                <h4 id="translate-intro3">Expert en nutrition</h4>
             </div>
         </div>
     </div>
 </div>
-<!-- slider_area_end -->
 
 <!-- welcome_area_start -->
 <div class="welcome_area">
@@ -115,18 +95,18 @@
         <div class="row">
             <div class="col-xl-12 col-lg-12">
                 <div class="welcome_info">
-                    <h2>À propos de moi</h2>
-                    Le Dr. Saif Al Jarrah est médecin spécialiste en médecine interne générale, avec une formation en gériatrie et la médecine d’urgence, il a été formé en Suisse, où il assume ses fonctions dans le secteur privé en cabinet et en consultations hospitalières.
+                    <h2 id="about-me">À propos de moi</h2>
+                    <p id="about-me-intro">Le Dr. Saif Al Jarrah est médecin spécialiste en médecine interne générale,
+                        avec une formation en gériatrie et la médecine d’urgence, il a été formé en Suisse, où il assume
+                        ses fonctions dans le secteur privé en cabinet et en consultations hospitalières.</p>
 
-                    <ul>
-                        <li><i class="flaticon-right"></i>  Il est titulaire de 2 diplômes de médecine, un premier anglais (M.B.Ch.B) à Bagdad en 2004.
-                        </li>
-                        <li><i class="flaticon-right"></i> puis un 2ème ( diplôme fédérale suisse) à Genève en 2010, il a réalisé par la suite une formation de 5 ans pour achever son titre de spécialiste en médecine interne en Suisse ainsi que 2 ans de formation en gériatrie, il a également réalisé durant ses années de formation académique une formation en médecine d’urgence hospitalier et extra hospitalier ( SMUR) .
-                            En plus de ses activités cliniques.
-                        </li>
-                        <li><i class="flaticon-right"></i> Il continue un travail de publication au sujet des maladies rares et des diagnostique complexes.
-                        </li>
-                    </ul>
+                    <p><span id="about-me1">Il est titulaire de 2 diplômes de médecine, un premier anglais (M.B.Ch.B) à Bagdad en 2004.</span>
+                        <span id="about-me2">Puis, un 2ème (diplôme fédérale suisse) à Genève en 2010, il a réalisé par la suite une formation de 5 ans pour achever son titre de spécialiste en médecine interne en Suisse ainsi que 2 ans de formation en gériatrie, il a également réalisé durant ses années de formation académique une formation en médecine d’urgence hospitalier et extra hospitalier (SMUR).</span>
+                    </p>
+
+                    <p><span id="about-me3">En plus de ses activités cliniques, il continue un travail de publication au sujet des maladies rares et des diagnostique complexes.</span>
+                    </p>
+
                 </div>
             </div>
         </div>
@@ -229,23 +209,24 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
-                    <ul class="nav" id="myTab" role="tablist">
-                        <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
-                               aria-controls="home"
-                               aria-selected="true">Experience Professionnelle</a>
+                    <ul class="nav" role="tablist">
+                        <li class="nav-item text-center">
+                            <a class="nav-link active" id="professional-experience" data-toggle="tab"
+                               href="#professional-experience-tab" role="tab"
+                               aria-controls="professional-experience-tab"
+                               aria-selected="true">Expérience professionnelle</a>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
-                               aria-controls="profile"
+                        <li class="nav-item text-center">
+                            <a class="nav-link" id="training" data-toggle="tab" href="#training-tab" role="tab"
+                               aria-controls="training-tab"
                                aria-selected="false">Formation</a>
                         </li>
 
 
-                        <li class="nav-item">
-                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
-                               aria-controls="contact"
+                        <li class="nav-item text-center">
+                            <a class="nav-link" id="publications" data-toggle="tab" href="#publications-tab" role="tab"
+                               aria-controls="publications-tab"
                                aria-selected="false">Publications</a>
                         </li>
                     </ul>
@@ -255,8 +236,8 @@
         </div>
     </div>
     <div class="container mt-5">
-        <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+        <div class="tab-content" id="tab-content">
+            <div class="tab-pane fade show active" id="professional-experience-tab" role="tabpanel">
                 <div class="row align-items-center">
                     <div class="col-xl-12 col-md-12">
                         <div class="business_info">
@@ -268,10 +249,11 @@
                                                  data-placement="top"
                                                  title=""
                                                  data-content="Spécialiste en médecine interne générale indépendant au Centre Helvetic Care"
-                                                 data-original-title="2020 - présent">
+                                                 data-original-title="2022 - présent">
                                                 <div class="inner-circle"></div>
-                                                <p class="h6 mt-3 mb-1">2020 - présent</p>
-                                                <p class="h6 text-muted mb-0 mb-lg-0">Spécialiste en médecine interne générale indépendant au Centre Helvetic Care</p>
+                                                <p class="h6 mt-3 mb-1">2022 - présent</p>
+                                                <p class="h6 text-muted mb-0 mb-lg-0">Spécialiste en médecine interne
+                                                    générale indépendant au Centre Helvetic Care</p>
                                             </div>
                                         </div>
                                         <div class="timeline-step">
@@ -290,30 +272,30 @@
                                             <div class="timeline-content" data-toggle="popover" data-trigger="hover"
                                                  data-placement="top"
                                                  title=""
-                                                 data-content="Consultant de l’unité de médecine interne et gériatrie a la
-Clinique Générale-Beaulieu (GE)"
-                                                 data-original-title="2018-  présent">
+                                                 data-content="Spécialiste en médecine interne générale indépendant au
+Centre médical et Sportif de Peillonnex (GE)"
+                                                 data-original-title="2020 - présent">
                                                 <div class="inner-circle"></div>
-                                                <p class="h6 mt-3 mb-1">2018 - présent</p>
-                                                <p class="h6 text-muted mb-0 mb-lg-0">Consultant de l’unité de
-                                                    médecine interne et
-                                                    gériatrie a la
-                                                    Clinique Générale-Beaulieu (GE)</p>
+                                                <p class="h6 mt-3 mb-1">2020 - présent</p>
+                                                <p class="h6 text-muted mb-0 mb-lg-0">Spécialiste en médecine
+                                                    interne générale
+                                                    indépendant au
+                                                    Centre médical et Sportif de Peillonnex (GE)</p>
                                             </div>
                                         </div>
                                         <div class="timeline-step">
                                             <div class="timeline-content" data-toggle="popover" data-trigger="hover"
                                                  data-placement="top"
                                                  title=""
-                                                 data-content="Spécialiste en médecine interne générale indépendant au
-Centre médical et Sportif de Peillonnex (GE)"
-                                                 data-original-title="2016 - présent">
+                                                 data-content="Consultant de l’unité de médecine interne et gériatrie a la
+Clinique Générale-Beaulieu (GE)"
+                                                 data-original-title="2018 - présent">
                                                 <div class="inner-circle"></div>
-                                                <p class="h6 mt-3 mb-1">2016 - présent</p>
-                                                <p class="h6 text-muted mb-0 mb-lg-0">Spécialiste en médecine
-                                                    interne générale
-                                                    indépendant au
-                                                    Centre médical et Sportif de Peillonnex (GE)</p>
+                                                <p class="h6 mt-3 mb-1">2018 - présent</p>
+                                                <p class="h6 text-muted mb-0 mb-lg-0">Consultant de l’unité de
+                                                    médecine interne et
+                                                    gériatrie a la
+                                                    Clinique Générale-Beaulieu (GE)</p>
                                             </div>
                                         </div>
                                         <div class="timeline-step">
@@ -415,7 +397,7 @@ Trois-Chênes, HUG (GE)"
                     </div>
                 </div>
             </div>
-            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="tab-pane fade" id="training-tab" role="tabpanel" aria-labelledby="training-tab">
                 <div class="row align-items-center">
                     <div class="col-xl-12 col-md-12">
                         <div class="business_info">
@@ -510,7 +492,7 @@ Trois-Chênes, HUG (GE)"
                     </div>
                 </div>
             </div>
-            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+            <div class="tab-pane fade" id="publications-tab" role="tabpanel">
                 <div class="row align-items-center">
                     <div class="col-xl-12 col-md-12">
                         <div class="business_info">
@@ -675,6 +657,11 @@ Trois-Chênes, HUG (GE)"
                         <h3 class="footer_title">
                             Adresse 1
                         </h3>
+                        <p>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2762.0270346001507!2d6.1508147150100525!3d46.1900206927399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c7bcb03face9d%3A0xfcbbf30b5196be89!2sChampel!5e0!3m2!1sfr!2sch!4v1662578395683!5m2!1sfr!2sch"
+                                    width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </p>
                         <p><span class="font-italic">Bureau Champel:</span><br>
                             Avenue Calas 1, 1206, Genève<br>
                             <span class="font-weight-bold">Téléphone:</span> 022 788 11 11<br>
@@ -687,6 +674,12 @@ Trois-Chênes, HUG (GE)"
                         <h3 class="footer_title">
                             Adresse 2
                         </h3>
+                        <p>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2761.439288330533!2d6.150093715010534!3d46.20171559195022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c6502bd84d5f1%3A0xcbfadaefff1d58bd!2sCr%20de%20Rive%202%2C%201204%20Gen%C3%A8ve!5e0!3m2!1sfr!2sch!4v1662578535135!5m2!1sfr!2sch"
+                                    width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </p>
+
                         <p>
                             <span class="font-italic">Bureau Rive:</span><br>
                             Cours de Rive 2, 1204, Genève<br>
@@ -704,7 +697,8 @@ Trois-Chênes, HUG (GE)"
             <div class="row">
                 <div class="col-xl-12">
                     <p class="copy_right text-center">
-                        Copyright &copy; <script>document.write(new Date().getFullYear());</script>
+                        Copyright &copy;
+                        <script>document.write(new Date().getFullYear());</script>
                         Tout droit reservé
                     </p>
                 </div>
@@ -720,7 +714,6 @@ Trois-Chênes, HUG (GE)"
 <script src="js/vendor/jquery-1.12.4.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
 <script src="js/isotope.pkgd.min.js"></script>
 <script src="js/ajax-form.js"></script>
 <script src="js/waypoints.min.js"></script>

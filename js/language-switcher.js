@@ -3,7 +3,14 @@ var english = document.getElementById("en"),
   intro1 = document.getElementById("translate-intro1");
   intro2 = document.getElementById("translate-intro2");
   intro3 = document.getElementById("translate-intro3");
-// declare some variables to catch the various HTML elements
+  aboutMe = document.getElementById("about-me");
+  aboutMeIntro = document.getElementById("about-me-intro");
+  aboutMe1 = document.getElementById("about-me1");
+  aboutMe2 = document.getElementById("about-me2");
+  aboutMe3 = document.getElementById("about-me3");
+  professionalExperience = document.getElementById("professional-experience");
+  training = document.getElementById("training");
+  publications = document.getElementById("publications");
 
 english.addEventListener("click", function() {
     change(english, french);
@@ -30,6 +37,16 @@ function change(langOn, langOff) {
     intro1.classList.add("english");
     intro1.classList.remove("french");
     intro1.innerHTML = "FMH specialist in general internal medicine";
+    intro2.innerHTML = "Geriatrics training";
+    intro3.innerHTML = "Nutrition expert";
+    aboutMe.innerHTML = "About me";
+    aboutMeIntro.innerHTML = "Dr. Saif Al Jarrah is a specialist in general internal medicine, with training in geriatrics and emergency medicine, he was trained in Switzerland, where he performs his duties in the private sector in private practice and in hospital consultations.";
+    aboutMe1.innerHTML = "He holds 2 medical degrees, a first in English (M.B.Ch.B) in Baghdad in 2004.";
+    aboutMe2.innerHTML = "Then, a 2nd (Swiss federal diploma) in Geneva in 2010, he subsequently completed a 5-year training to complete his title of specialist in internal medicine in Switzerland as well as 2 years of training in geriatrics, he also completed during his years of academic training in hospital and extra-hospital emergency medicine (SMUR).";
+    aboutMe3.innerHTML = "In addition to his clinical activities, he continues to publish on rare diseases and complex diagnostics.";
+    professionalExperience.innerHTML = "Professional experience";
+    training.innerHTML = "Training";
+    publications.innerHTML = "Publications";
   }
 
   else if (langOn.innerHTML.trim() == "FR") {
@@ -39,12 +56,15 @@ function change(langOn, langOff) {
     // this allows you to apply CSS that is specific to each language
     intro1.classList.remove("french");
     intro1.innerHTML = "Spécialiste FMH en médecine interne générale";
-    // fourth line is where you key in the text that will replace what is currently on-screen
-  }
-
-  else if (langOn.innerHTML == "FR") {
-    intro1.classList.add("french");
-    intro1.classList.remove("english");
-    intro1.innerHTML = "test en frqncqis";
+    intro2.innerHTML = "Formation en gériatrie";
+    intro3.innerHTML = "Expert en nutrition";
+    aboutMe.innerHTML = "À propos de moi";
+    aboutMeIntro.innerHTML = "Le Dr. Saif Al Jarrah est médecin spécialiste en médecine interne générale, avec une formation en gériatrie et la médecine d’urgence, il a été formé en Suisse, où il assume ses fonctions dans le secteur privé en cabinet et en consultations hospitalières";
+    aboutMe1.innerHTML = "Il est titulaire de 2 diplômes de médecine, un premier anglais (M.B.Ch.B) à Bagdad en 2004.";
+    aboutMe2.innerHTML = "Puis, un 2ème (diplôme fédérale suisse) à Genève en 2010, il a réalisé par la suite une formation de 5 ans pour achever son titre de spécialiste en médecine interne en Suisse ainsi que 2 ans de formation en gériatrie, il a également réalisé durant ses années de formation académique une formation en médecine d’urgence hospitalier et extra hospitalier (SMUR).";
+    aboutMe3.innerHTML = "En plus de ses activités cliniques, il continue un travail de publication au sujet des maladies rares et des diagnostique complexes.";
+    professionalExperience.innerHTML = "Expérience professionnelle";
+    training.innerHTML = "Formation";
+    publications.innerHTML = "Publications";
   }
 }
