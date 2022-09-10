@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap);
+
+.didot {
+    font-family: 'GFS Didot' !important;
+}
 
 .boxed-btn, body, h1, h2, h3, h4, h5, p {
     font-family: Poppins, sans-serif
@@ -135,7 +140,7 @@ label {
 }
 
 .overlay_skyblue::before {
-    background-color: #5db2ff;
+    background-color: #CBC7AD;
     opacity: .8
 }
 
@@ -163,17 +168,17 @@ label {
 
 .boxed-btn {
     background: #fff;
-    border: 1px solid #009dff;
+    border: 1px solid #CBC7AD;
     letter-spacing: 3px;
     text-align: center;
-    color: #009dff !important;
+    color: #CBC7AD !important;
     text-transform: uppercase
 }
 
 .boxed-btn:hover {
-    background: #009dff;
+    background: #CBC7AD;
     color: #fff !important;
-    border: 1px solid #009dff
+    border: 1px solid #CBC7AD
 }
 
 .boxed-btn2:focus, .boxed-btn3-white-2:focus, .boxed-btn3-white:focus, .boxed-btn3:focus, .boxed-btn:focus, .genric-btn:focus, .popup_box input:focus, .single-input:focus, .single-textarea:focus {
@@ -186,9 +191,9 @@ label {
 
 .boxed-btn3 {
     background: #0181f5;
-    background: -moz-linear-gradient(left, #0181f5 0, #5db2ff 100%);
-    background: -webkit-linear-gradient(left, #0181f5 0, #5db2ff 100%);
-    background: linear-gradient(to right, #0181f5 0, #5db2ff 100%);
+    background: -moz-linear-gradient(left, #0181f5 0, #CBC7AD 100%);
+    background: -webkit-linear-gradient(left, #0181f5 0, #CBC7AD 100%);
+    background: linear-gradient(to right, #0181f5 0, #CBC7AD 100%);
     font-family: Poppins, sans-serif;
     font-size: 15px;
     font-weight: 500;
@@ -215,8 +220,8 @@ label {
 
 .boxed-btn3:hover {
     background: #fff;
-    color: #009dff !important;
-    border: 1px solid #009dff
+    color: #CBC7AD !important;
+    border: 1px solid #CBC7AD
 }
 
 .boxed-btn3-white {
@@ -231,14 +236,14 @@ label {
 
 .boxed-btn3-white:hover {
     background: #fff;
-    color: #009dff !important;
+    color: #CBC7AD !important;
     border: 1px solid transparent
 }
 
 .boxed-btn3-white-2 {
-    color: #5db2ff !important;
+    color: #CBC7AD !important;
     font-weight: 400;
-    border: 1px solid #5db2ff;
+    border: 1px solid #CBC7AD;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -249,7 +254,7 @@ label {
 }
 
 .boxed-btn3-white-2:hover {
-    background: #5db2ff;
+    background: #CBC7AD;
     color: #fff !important;
     border: 1px solid transparent
 }
@@ -283,7 +288,7 @@ label {
 }
 
 .blog_details a:hover, .features_room .rooms_here .single_rooms .room_thumb .room_heading a:hover, .line-button:hover, .single-post-area .blog-author a:hover {
-    color: #009dff
+    color: #CBC7AD
 }
 
 .line-button::before {
@@ -294,7 +299,7 @@ label {
 }
 
 .line-button:hover::before {
-    background: #009dff
+    background: #CBC7AD
 }
 
 .section_title h3 {
@@ -309,7 +314,7 @@ label {
 
 .section_title h3::before {
     position: absolute;
-    background: #5db2ff;
+    background: #CBC7AD;
     height: 2px;
     width: 50px;
     content: '';
@@ -329,7 +334,7 @@ label {
     }
 }
 
-.welcome_area .welcome_info p, .welcome_area .welcome_info ul li {
+.welcome_area .welcome-info p, .welcome_area .welcome-info ul li {
     line-height: 28px;
     font-size: 16px
 }
@@ -402,7 +407,7 @@ label {
 }
 
 .header-area .main-header-area .Appointment .book_btn a {
-    background: #009dff;
+    background: #CBC7AD;
     padding: 12px 26px;
     font-size: 14px;
     font-weight: 400;
@@ -415,8 +420,8 @@ label {
 
 .header-area .main-header-area .Appointment .book_btn a:hover {
     background: #fff;
-    color: #009dff;
-    border: 1px solid #009dff
+    color: #CBC7AD;
+    border: 1px solid #CBC7AD
 }
 
 .header-area .main-header-area .main-menu {
@@ -607,7 +612,7 @@ label {
 
 .header-area .header-top_area {
     padding: 12px 0;
-    background: #f5fbff
+    background: #CBC7AD
 }
 
 .bradcam_area, .footer {
@@ -618,12 +623,12 @@ label {
 
 .header-area .header-top_area .social_media_links a {
     font-size: 15px;
-    color: #c7c7c7;
+    font-size: 15px;
     margin-right: 12px
 }
 
 .footer .copy-right_text .copy_right a, .footer .footer_top .footer_widget ul li a:hover, .header-area .header-top_area .social_media_links a:hover, .our_department_area .single_department .department_content h3 a:hover {
-    color: #5db2ff
+    color: #CBC7AD
 }
 
 .forQuery .Query_border .phone_num, .header-area .header-top_area .short_contact_list, .single-post-area .navigation-area .nav-right {
@@ -637,7 +642,7 @@ label {
 }
 
 .header-area .header-top_area .short_contact_list ul li a i {
-    color: #5db2ff;
+    color: #CBC7AD;
     margin-right: 7px
 }
 
@@ -660,7 +665,7 @@ label {
     padding-bottom: 10px
 }
 
-.welcome_area .welcome_info {
+.welcome_area .welcome-info {
     padding-left: 90px
 }
 
@@ -669,13 +674,13 @@ label {
         padding-bottom: 100px
     }
 
-    .welcome_area .welcome_info {
+    .welcome_area .welcome-info {
         padding-left: 0;
         margin-top: 40px
     }
 }
 
-.welcome_area .welcome_info h2 {
+.welcome_area .welcome-info h2 {
     font-size: 18px;
     font-weight: 400;
     color: #1f1f1f;
@@ -685,35 +690,35 @@ label {
     padding-bottom: 9px
 }
 
-.welcome_area .welcome_info h2:before {
+.welcome_area .welcome-info h2:before {
     content: "";
     position: absolute;
     left: 0;
     bottom: 0;
     height: 2px;
     width: 50px;
-    background: #5db2ff
+    background: #CBC7AD
 }
 
-.welcome_area .welcome_info h3 {
+.welcome_area .welcome-info h3 {
     font-weight: 500;
     font-size: 36px;
     margin-bottom: 10px
 }
 
-.welcome_area .welcome_info ul {
+.welcome_area .welcome-info ul {
     margin-bottom: 40px;
     margin-top: 25px
 }
 
-.welcome_area .welcome_info ul li i {
+.welcome_area .welcome-info ul li i {
     margin-right: 10px;
-    color: #5db2ff;
+    color: #CBC7AD;
     font-weight: 16px
 }
 
 .business_expert_area .business_info .icon i {
-    background: #5db2ff;
+    background: #CBC7AD;
     width: 75px;
     height: 75px;
     display: inline-block;
@@ -743,7 +748,7 @@ label {
 }
 
 .business_expert_area .business_tabs_area {
-    background: #f5fbff
+    background: #CBC7AD
 }
 
 .business_expert_area .business_tabs_area .nav .nav-item {
@@ -758,11 +763,11 @@ label {
 }
 
 @media (max-width: 767px) {
-    .welcome_area .welcome_info h3 {
+    .welcome_area .welcome-info h3 {
         font-size: 30px
     }
 
-    .welcome_area .welcome_info h3 br {
+    .welcome_area .welcome-info h3 br {
         display: none
     }
 
@@ -906,7 +911,7 @@ label {
     background: #fff;
     line-height: 60px;
     font-size: 15px;
-    color: #009dff;
+    color: #CBC7AD;
     display: inline-block;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -1097,7 +1102,7 @@ label {
 }
 
 .forQuery .Query_border .phone_num a {
-    background: #009dff;
+    background: #CBC7AD;
     color: #fff;
     padding: 12px 53px;
     border-radius: 30px;
@@ -1107,8 +1112,8 @@ label {
 }
 
 .forQuery .Query_border .phone_num a:hover {
-    color: #009dff;
-    border: 1px solid #009dff;
+    color: #CBC7AD;
+    border: 1px solid #CBC7AD;
     background: #fff
 }
 
@@ -1259,7 +1264,7 @@ label {
         padding-bottom: 100px
     }
 
-    .welcome_area .welcome_info {
+    .welcome_area .welcome-info {
         padding-left: 0;
         margin-top: 100px
     }
@@ -1328,8 +1333,8 @@ label {
 }
 
 .footer .footer_top .footer_widget p.footer_text a.domain:hover, .footer .footer_top .footer_widget p.footer_text.doanar a:hover {
-    color: #5db2ff;
-    border-bottom: 1px solid #5db2ff
+    color: #CBC7AD;
+    border-bottom: 1px solid #CBC7AD
 }
 
 .footer .footer_top .footer_widget p.footer_text.doanar a {
@@ -1375,7 +1380,7 @@ label {
     border: none;
     font-size: 14px;
     color: #fff;
-    background: #5db2ff;
+    background: #CBC7AD;
     padding: 0 22px;
     cursor: pointer
 }
@@ -1418,35 +1423,6 @@ label {
     color: #fff !important
 }
 
-.breadcam_bg {
-    background-image: url(../img/banner/bradcam.png)
-}
-
-.breadcam_bg_1 {
-    background-image: url(../img/banner/bradcam2.png)
-}
-
-.breadcam_bg_2 {
-    background-image: url(../img/banner/bradcam3.png)
-}
-
-.bradcam_area {
-    padding: 148px 0
-}
-
-.bradcam_area h3 {
-    font-size: 50px;
-    color: #fff;
-    font-weight: 600;
-    margin-bottom: 0
-}
-
-.bradcam_area p {
-    font-size: 18px;
-    color: #fff;
-    font-weight: 400
-}
-
 .popup_box {
     background: #fff;
     z-index: 9;
@@ -1457,7 +1433,7 @@ label {
 .popup_box h3 {
     text-align: center;
     font-size: 22px;
-    color: #5db2ff;
+    color: #CBC7AD;
     margin-bottom: 46px
 }
 
@@ -1562,88 +1538,9 @@ label {
     display: none !important
 }
 
-.mfp-bg {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1042;
-    overflow: hidden;
-    position: fixed;
-    background: #000;
-    opacity: .7
-}
-
-.our_department_area {
-    background: #f5fbff;
-    padding-top: 120px;
-    padding-bottom: 90px
-}
-
-.our_department_area .single_department {
-    background: #fff;
-    margin-bottom: 30px;
-    -webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, .04);
-    -moz-box-shadow: 0 6px 10px rgba(0, 0, 0, .04);
-    box-shadow: 0 6px 10px rgba(0, 0, 0, .04)
-}
-
-.our_department_area .single_department .department_thumb {
-    overflow: hidden;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px
-}
-
-.our_department_area .single_department .department_content {
-    padding: 22px 30px 24px
-}
 
 .blog_right_sidebar .post_category_widget .cat-list li a p, .our_department_area .single_department .department_content h3, .single-post-area .navigation-area p, .single-post-area .navigation-top p {
     margin-bottom: 0
-}
-
-.our_department_area .single_department .department_content h3 a {
-    font-size: 22px;
-    color: #1f1f1f;
-    line-height: 33px;
-    font-weight: 500
-}
-
-.our_department_area .single_department .department_content p {
-    font-size: 16px;
-    line-height: 28px;
-    color: #727272;
-    margin-top: 5px;
-    margin-bottom: 10px
-}
-
-.our_department_area .single_department .department_content a.learn_more {
-    color: #5db2ff;
-    font-size: 16px
-}
-
-.our_department_area .single_department:hover .department_thumb img {
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2)
-}
-
-.Emergency_contact .single_emergency {
-    padding: 91px 0;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat
-}
-
-.Emergency_contact .single_emergency .info {
-    margin-right: 30px
-}
-
-.Emergency_contact .single_emergency .info h3 {
-    font-size: 26px;
-    font-weight: 500;
-    color: #fff
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
@@ -1666,27 +1563,6 @@ label {
     .Emergency_contact .single_emergency .info h3 {
         font-size: 20px
     }
-}
-
-.Emergency_contact .single_emergency .info p {
-    color: #fff;
-    font-size: 13px;
-    font-weight: 400;
-    margin-bottom: 0
-}
-
-.Emergency_contact .single_emergency .info_button a {
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    border-radius: 30px
-}
-
-.emergency_bg_1 {
-    background-image: url(../img/banner/emergency-1.jpeg)
-}
-
-.emergency_bg_2 {
-    background-image: url(../img/banner/emergency-2.png)
 }
 
 .dropdown .dropdown-menu {
@@ -2513,7 +2389,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .blog_area a :hover, .blog_area a:hover {
-    background: -webkit-linear-gradient(131deg, #009dff 0, #009dff 99%);
+    background: -webkit-linear-gradient(131deg, #CBC7AD 0, #CBC7AD 99%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-decoration: none;
@@ -2846,7 +2722,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 10px;
     display: block;
     color: #fff;
-    background-color: #009dff;
+    background-color: #CBC7AD;
     padding: 8px 15px;
     border-radius: 5px
 }
@@ -2988,7 +2864,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-    background: #009dff;
+    background: #CBC7AD;
     color: #fff !important;
     -webkit-text-fill-color: #fff;
     text-decoration: none;
@@ -3419,7 +3295,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .blog_part .single-home-blog .card .card-body a {
-    color: #009dff;
+    color: #CBC7AD;
     text-transform: uppercase;
     -webkit-transition: .8s;
     transition: .8s
@@ -3443,7 +3319,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 10px;
     top: 5px;
     left: 0;
-    background-color: #009dff;
+    background-color: #CBC7AD;
     border-radius: 50%
 }
 
@@ -3644,7 +3520,7 @@ h1, h2, h3, h4, h5, h6 {
     .timeline-steps .timeline-step:not(:last-child):after {
         content: "";
         display: block;
-        border-top: .25rem dotted #3b82f6;
+        border-top: .25rem dotted #CBC7AD;
         width: 3.46rem;
         position: absolute;
         left: 7.5rem;
@@ -3654,7 +3530,7 @@ h1, h2, h3, h4, h5, h6 {
     .timeline-steps .timeline-step:not(:first-child):before {
         content: "";
         display: block;
-        border-top: .25rem dotted #3b82f6;
+        border-top: .25rem dotted #CBC7AD;
         width: 3.8125rem;
         position: absolute;
         right: 7.5rem;
@@ -3674,12 +3550,12 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: #3b82f6
+    background-color: #CBC7AD
 }
 
 .timeline-steps .timeline-content .inner-circle:before {
     content: "";
-    background-color: #3b82f6;
+    background-color: #CBC7AD;
     display: inline-block;
     height: 3rem;
     width: 3rem;
@@ -3689,12 +3565,56 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .big-banner {
-    background-image: url(../img/banner/banner2.png);
+    background-image: linear-gradient(to right, rgba(203,199,173, 0.6) , transparent), url(../img/banner/banner1.png);
     background-size: cover;
-    background-position: center center;
+    background-position: 67.5%;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
 }
 
 .intro-text {
     height: 350px;
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.modal {
+    z-index: 100000000000 !important;
+}
+
+.modal-backdrop {
+    background-image: url(../img/cabinet.jpg);
+    background-color: transparent;
+    z-index: -1;
+}
+
+#experience-professional-modal, #training-modal, #publications-modal {
+    background: white;
+    background-image: url(../img/cabinet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.modal-backdrop * {
+    display: none;
+}
+
+.modal-content {
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.text-beige {
+    color: rgb(203,199,173);
 }

@@ -38,8 +38,8 @@
         <div class="header-top_area">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-6 col-md-6">
-                        <div class="social_media_links">
+                    <div class="col-xl-12 col-md-12">
+                        <div class="social_media_links text-right">
                             <a href="#" id="fr" class="current-lang">
                                 FR
                             </a>
@@ -65,7 +65,7 @@
                     <div class="col-12">
                         <div class="logo text-center">
                             <a href="index.html">
-                                <img src="img/logo.png" alt="" height="40">
+                                <img src="img/logo.png" alt="" height="50">
                             </a>
                         </div>
                     </div>
@@ -76,26 +76,28 @@
 </header>
 <!-- header-end -->
 
-<div class="jumbotron big-banner">
+<!-- <INTRO> -->
+<div class="jumbotron big-banner animated fadeIn">
     <div class="container">
         <div class="row align-items-center">
             <div class="col intro-text">
-                <h1>Dr. Saif Al Jarrah</h1>
-                <h4 id="translate-intro1">Spécialiste FMH en médecine interne générale</h4>
-                <h4 id="translate-intro2">Formation en gériatrie</h4>
-                <h4 id="translate-intro3">Expert en nutrition</h4>
+                <h1 class="didot">Dr. Saif Al Jarrah</h1>
+                <h4 id="translate-intro1" class="didot">Spécialiste FMH en médecine interne générale</h4>
+                <h4 id="translate-intro2" class="didot">Formation en gériatrie</h4>
+                <h4 id="translate-intro3" class="didot">Expert en nutrition</h4>
             </div>
         </div>
     </div>
 </div>
+<!-- </INTRO> -->
 
-<!-- welcome_area_start -->
-<div class="welcome_area">
+<!-- <ABOUTME> -->
+<div class="welcome_area reveal">
     <div class="container">
         <div class="row">
             <div class="col-xl-12 col-lg-12">
-                <div class="welcome_info">
-                    <h2 id="about-me">À propos de moi</h2>
+                <div class="welcome-info text-justify">
+                    <h2 id="about-me">À propos de Dr. Saif Al Jarrah </h2>
                     <p id="about-me-intro">Le Dr. Saif Al Jarrah est médecin spécialiste en médecine interne générale,
                         avec une formation en gériatrie et la médecine d’urgence, il a été formé en Suisse, où il assume
                         ses fonctions dans le secteur privé en cabinet et en consultations hospitalières.</p>
@@ -112,7 +114,38 @@
         </div>
     </div>
 </div>
-<!-- welcome_area_end -->
+<!-- </ABOUTME> -->
+
+<div class="welcome_area reveal">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12">
+                <div class="welcome-info">
+                    <h2 id="career">Parcours</h2>
+                    <div class="d-flex justify-content-between">
+                       <div>
+                           <button type="button" class="button button-contactForm boxed-btn" data-toggle="modal"
+                                   data-target="#experience-professional-modal">Expérience professionnelle
+                           </button>
+                       </div>
+
+                       <div>
+                           <button type="button" class="button button-contactForm boxed-btn" data-toggle="modal"
+                                   data-target="#training-modal">Formation
+                           </button>
+                       </div>
+
+                        <div>
+                            <button type="button" class="button button-contactForm boxed-btn" data-toggle="modal"
+                                    data-target="#publications-modal">Publications
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- offers_area_start -->
 <!-- <div class="our_department_area">
@@ -203,8 +236,280 @@
 </div>-->
 <!-- offers_area_end -->
 
-<!-- business_expert_area_start  -->
-<div class="business_expert_area">
+<!-- Experience Professional Modal -->
+<div class="modal fade" id="experience-professional-modal" tabindex="-1" role="dialog"
+     aria-labelledby="experience-professional-modal-label" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="experience-professional-modal-label">Expérience professionnelle</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col">
+                        <div class="timeline-steps aos-init aos-animate" data-aos="fade-up">
+                            <div class="timeline-step">
+                                <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                     data-placement="top"
+                                     title=""
+                                     data-content="Médecin formateur (FMF)"
+                                     data-original-title="2021">
+                                    <div class="inner-circle"></div>
+                                    <p class="h6 mt-3 mb-1">2021</p>
+                                    <p class="h6 text-muted mb-0 mb-lg-0">Médecin formateur (FMF)</p>
+                                </div>
+                            </div>
+                            <div class="timeline-step">
+                                <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                     data-placement="top"
+                                     title=""
+                                     data-content="Expert en nutrition (OFSP)"
+                                     data-original-title="2019">
+                                    <div class="inner-circle"></div>
+                                    <p class="h6 mt-3 mb-1">2019</p>
+                                    <p class="h6 text-muted mb-0 mb-lg-0">Expert en nutrition (OFSP)</p>
+                                </div>
+                            </div>
+                            <div class="timeline-step">
+                                <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                     data-placement="top"
+                                     title=""
+                                     data-content="FMH de médecine interne générale"
+                                     data-original-title="2016">
+                                    <div class="inner-circle"></div>
+                                    <p class="h6 mt-3 mb-1">2016</p>
+                                    <p class="h6 text-muted mb-0 mb-lg-0">FMH de médecine interne
+                                        générale</p>
+                                </div>
+                            </div>
+                            <div class="timeline-step">
+                                <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                     data-placement="top"
+                                     title=""
+                                     data-content="FMH de médecine interne générale"
+                                     data-original-title="2014">
+                                    <div class="inner-circle"></div>
+                                    <p class="h6 mt-3 mb-1">2014</p>
+                                    <p class="h6 text-muted mb-0 mb-lg-0">FMH de médecine interne
+                                        générale</p>
+                                </div>
+                            </div>
+                            <div class="timeline-step">
+                                <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                     data-placement="top"
+                                     title=""
+                                     data-content="Formation en gériatrie"
+                                     data-original-title="2011 - 2012">
+                                    <div class="inner-circle"></div>
+                                    <p class="h6 mt-3 mb-1">2011 - 2012</p>
+                                    <p class="h6 text-muted mb-0 mb-lg-0">Formation en gériatrie</p>
+                                </div>
+                            </div>
+                            <div class="timeline-step">
+                                <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                     data-placement="top"
+                                     title=""
+                                     data-content="Diplôme fédéral Suisse de médecine, Université de Genève"
+                                     data-original-title="2005 - 2010">
+                                    <div class="inner-circle"></div>
+                                    <p class="h6 mt-3 mb-1">2005 - 2010</p>
+                                    <p class="h6 text-muted mb-0 mb-lg-0">Diplôme fédéral Suisse de
+                                        médecine, Université de Genève</p>
+                                </div>
+                            </div>
+                            <div class="timeline-step">
+                                <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                     data-placement="top"
+                                     title=""
+                                     data-content="Diplôme fédéral Suisse de médecine, Université de Genève"
+                                     data-original-title="1998 - 2004">
+                                    <div class="inner-circle"></div>
+                                    <p class="h6 mt-3 mb-1">1998 - 2004</p>
+                                    <p class="h6 text-muted mb-0 mb-lg-0">(M.B.Ch.B) in medecine &
+                                        surgery, Bagdad, Irak</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Training Modal -->
+<div class="modal fade" id="training-modal" tabindex="-1" role="dialog"
+     aria-labelledby="training-modal-Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="training-modal-label">Formation</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col">
+                        <div class="timeline-steps aos-init aos-animate" data-aos="fade-up">
+                            <div class="timeline-step">
+                                <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                     data-placement="top"
+                                     title=""
+                                     data-content="Médecin formateur (FMF)"
+                                     data-original-title="2021">
+                                    <div class="inner-circle"></div>
+                                    <p class="h6 mt-3 mb-1">2021</p>
+                                    <p class="h6 text-muted mb-0 mb-lg-0">Médecin formateur (FMF)</p>
+                                </div>
+                            </div>
+                            <div class="timeline-step">
+                                <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                     data-placement="top"
+                                     title=""
+                                     data-content="Expert en nutrition (OFSP)"
+                                     data-original-title="2019">
+                                    <div class="inner-circle"></div>
+                                    <p class="h6 mt-3 mb-1">2019</p>
+                                    <p class="h6 text-muted mb-0 mb-lg-0">Expert en nutrition (OFSP)</p>
+                                </div>
+                            </div>
+                            <div class="timeline-step">
+                                <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                     data-placement="top"
+                                     title=""
+                                     data-content="FMH de médecine interne générale"
+                                     data-original-title="2016">
+                                    <div class="inner-circle"></div>
+                                    <p class="h6 mt-3 mb-1">2016</p>
+                                    <p class="h6 text-muted mb-0 mb-lg-0">FMH de médecine interne
+                                        générale</p>
+                                </div>
+                            </div>
+                            <div class="timeline-step">
+                                <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                     data-placement="top"
+                                     title=""
+                                     data-content="FMH de médecine interne générale"
+                                     data-original-title="2014">
+                                    <div class="inner-circle"></div>
+                                    <p class="h6 mt-3 mb-1">2014</p>
+                                    <p class="h6 text-muted mb-0 mb-lg-0">FMH de médecine interne
+                                        générale</p>
+                                </div>
+                            </div>
+                            <div class="timeline-step">
+                                <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                     data-placement="top"
+                                     title=""
+                                     data-content="Formation en gériatrie"
+                                     data-original-title="2011 - 2012">
+                                    <div class="inner-circle"></div>
+                                    <p class="h6 mt-3 mb-1">2011 - 2012</p>
+                                    <p class="h6 text-muted mb-0 mb-lg-0">Formation en gériatrie</p>
+                                </div>
+                            </div>
+                            <div class="timeline-step">
+                                <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                     data-placement="top"
+                                     title=""
+                                     data-content="Diplôme fédéral Suisse de médecine, Université de Genève"
+                                     data-original-title="2005 - 2010">
+                                    <div class="inner-circle"></div>
+                                    <p class="h6 mt-3 mb-1">2005 - 2010</p>
+                                    <p class="h6 text-muted mb-0 mb-lg-0">Diplôme fédéral Suisse de
+                                        médecine, Université de Genève</p>
+                                </div>
+                            </div>
+                            <div class="timeline-step">
+                                <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                     data-placement="top"
+                                     title=""
+                                     data-content="Diplôme fédéral Suisse de médecine, Université de Genève"
+                                     data-original-title="1998 - 2004">
+                                    <div class="inner-circle"></div>
+                                    <p class="h6 mt-3 mb-1">1998 - 2004</p>
+                                    <p class="h6 text-muted mb-0 mb-lg-0">(M.B.Ch.B) in medecine &
+                                        surgery, Bagdad, Irak</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Publications Modal -->
+<div class="modal fade" id="publications-modal" tabindex="-1" role="dialog"
+     aria-labelledby="publications-modal-label" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="publications-modal-label">Formation</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col">
+                        <div class="timeline-steps aos-init aos-animate" data-aos="fade-up">
+                            <div class="timeline-step">
+                                <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                     data-placement="top"
+                                     title=""
+                                     data-content=""
+                                     data-original-title="Pulmonary only Good pasture disease:">
+                                    <div class="inner-circle"></div>
+                                    <p class="h6 mt-3 mb-1">Pulmonary only Good pasture disease:</p>
+                                    <p class="h6 text-beige mb-0 mb-lg-0">S. Al Jarrah.</p>
+                                    <p class="h6 text-beige mb-0 mb-lg-0">J. Castioni.</p>
+                                    <p class="h6 text-beige mb-0 mb-lg-0">P-A Bart</p>
+                                    <p class="h6 mb-0 mb-lg-0">Publié</p>
+                                </div>
+                            </div>
+                            <div class="timeline-step">
+                                <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                     data-placement="top"
+                                     title=""
+                                     data-content=""
+                                     data-original-title="Oxalaturea and autism">
+                                    <div class="inner-circle"></div>
+                                    <p class="h6 mt-3 mb-1">Oxalaturea and autism</p>
+                                    <p class="h6 text-beige mb-0 mb-lg-0">S. Al Jarrah</p>
+                                    <p class="h6 text-beige mb-0 mb-lg-0">Dr Hans Freudiger</p>
+                                    <p class="h6 mb-0 mb-lg-0">En révision</p>
+                                </div>
+                            </div>
+                            <div class="timeline-step">
+                                <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                     data-placement="top"
+                                     title=""
+                                     data-content="FMH de médecine interne générale"
+                                     data-original-title="Cerveau entérique">
+                                    <div class="inner-circle"></div>
+                                    <p class="h6 mt-3 mb-1">Cerveau entérique</p>
+                                    <p class="h6 text-muted mb-0 mb-lg-0">révision de thèse du Dr L.
+                                        Poenaru</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br>
+
+<!-- <EXPERIENCE> -->
+<!-- <div class="business_expert_area reveal">
     <div class="business_tabs_area">
         <div class="container">
             <div class="row">
@@ -232,7 +537,6 @@
                     </ul>
                 </div>
             </div>
-
         </div>
     </div>
     <div class="container mt-5">
@@ -251,7 +555,8 @@
                                                  data-content="Spécialiste en médecine interne générale indépendant au Centre Helvetic Care"
                                                  data-original-title="2022 - présent">
                                                 <div class="inner-circle"></div>
-                                                <p class="h6 mt-3 mb-1">2022 - présent</p>
+                                                <p class="h6 mt-3 mb-1">2022 - <span
+                                                        id="translate-present1">présent</span></p>
                                                 <p class="h6 text-muted mb-0 mb-lg-0">Spécialiste en médecine interne
                                                     générale indépendant au Centre Helvetic Care</p>
                                             </div>
@@ -263,7 +568,8 @@
                                                  data-content="Médecin formateur en cabinet médical (GE)"
                                                  data-original-title="2021 - présent">
                                                 <div class="inner-circle"></div>
-                                                <p class="h6 mt-3 mb-1">2021 - présent</p>
+                                                <p class="h6 mt-3 mb-1">2021 - <span
+                                                        id="translate-present2">présent</span></p>
                                                 <p class="h6 text-muted mb-0 mb-lg-0">Médecin formateur en cabinet
                                                     médical (GE)</p>
                                             </div>
@@ -276,7 +582,8 @@
 Centre médical et Sportif de Peillonnex (GE)"
                                                  data-original-title="2020 - présent">
                                                 <div class="inner-circle"></div>
-                                                <p class="h6 mt-3 mb-1">2020 - présent</p>
+                                                <p class="h6 mt-3 mb-1">2020 - <span
+                                                        id="translate-present3">présent</span></p>
                                                 <p class="h6 text-muted mb-0 mb-lg-0">Spécialiste en médecine
                                                     interne générale
                                                     indépendant au
@@ -291,7 +598,8 @@ Centre médical et Sportif de Peillonnex (GE)"
 Clinique Générale-Beaulieu (GE)"
                                                  data-original-title="2018 - présent">
                                                 <div class="inner-circle"></div>
-                                                <p class="h6 mt-3 mb-1">2018 - présent</p>
+                                                <p class="h6 mt-3 mb-1">2018 - <span
+                                                        id="translate-present4">présent</span></p>
                                                 <p class="h6 text-muted mb-0 mb-lg-0">Consultant de l’unité de
                                                     médecine interne et
                                                     gériatrie a la
@@ -547,18 +855,18 @@ Trois-Chênes, HUG (GE)"
             </div>
         </div>
     </div>
-</div>
-<!-- business_expert_area_end  -->
+</div> -->
+<!-- </EXPERIENCE> -->
 
-
-<!-- welcome_area_start -->
-<div class="welcome_area">
+<!-- <CONTACT US> -->
+<div class="welcome_area reveal">
     <div class="container">
         <div class="row">
             <div class="col-xl-12 col-lg-12">
-                <div class="welcome_info">
+                <div class="welcome-info">
                     <h2>Contactez nous</h2>
-                    <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm"
+                    <form class="form-contact contact_form" action="contact_process.php" method="post"
+                          id="contact-form"
                           novalidate="novalidate">
                         <div class="row">
                             <div class="col-12">
@@ -572,7 +880,8 @@ Trois-Chênes, HUG (GE)"
                             <div class="col-sm-6">
                                 <div class="form-group">
                                     <input class="form-control valid" name="name" id="name" type="text"
-                                           onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'"
+                                           onfocus="this.placeholder = ''"
+                                           onblur="this.placeholder = 'Enter your name'"
                                            placeholder="Entrez votre nom">
                                 </div>
                             </div>
@@ -580,13 +889,15 @@ Trois-Chênes, HUG (GE)"
                                 <div class="form-group">
                                     <input class="form-control valid" name="email" id="email" type="email"
                                            onfocus="this.placeholder = ''"
-                                           onblur="this.placeholder = 'Entrez votre adresse email'" placeholder="Email">
+                                           onblur="this.placeholder = 'Entrez votre adresse email'"
+                                           placeholder="Email">
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-group">
                                     <input class="form-control" name="subject" id="subject" type="text"
-                                           onfocus="this.placeholder = ''" onblur="this.placeholder = 'Entrez un objec'"
+                                           onfocus="this.placeholder = ''"
+                                           onblur="this.placeholder = 'Entrez un objec'"
                                            placeholder="Object">
                                 </div>
                             </div>
@@ -594,15 +905,19 @@ Trois-Chênes, HUG (GE)"
                         <div class="form-group mt-3">
                             <button class="button button-contactForm boxed-btn">Envoyer</button>
                         </div>
+
+                        <div class="form-group mt-3">
+                            <button class="button button-contactForm boxed-btn" onclick="myFunction()" type="button">Envoyer Email</button>
+                        </div>
                     </form>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!-- welcome_area_end -->
+<!-- </CONTACT US> -->
 
-<!-- Emergency_contact start -->
+<!-- <CONTACT US> -->
 <!-- <div class="Emergency_contact">
     <div class="conatiner-fluid p-0">
         <div class="row no-gutters">
@@ -631,9 +946,9 @@ Trois-Chênes, HUG (GE)"
         </div>
     </div>
 </div> -->
-<!-- Emergency_contact end -->
+<!-- </CONTACT US> -->
 
-<!-- footer start -->
+<!-- <FOOTER> -->
 <footer class="footer">
     <div class="footer_top">
         <div class="container">
@@ -706,7 +1021,7 @@ Trois-Chênes, HUG (GE)"
         </div>
     </div>
 </footer>
-<!-- footer end  -->
+<!-- </FOOTER>  -->
 <!-- link that opens popup -->
 
 <!-- JS here -->
@@ -750,6 +1065,49 @@ Trois-Chênes, HUG (GE)"
     }
 
   });
+</script>
+<script>
+  function reveal() {
+    var reveals = document.querySelectorAll(".reveal");
+
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 150;
+
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active");
+      } else {
+        reveals[i].classList.remove("active");
+      }
+    }
+  }
+
+  window.addEventListener("scroll", reveal);
+
+</script>
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+  (function(){
+    emailjs.init("fXvlX0uv-Y6v1CzIL");
+    
+    var sendEmail = function() {
+     console.log('jkdfskldskljfsdklj')
+    }
+  })();
+</script>
+<script>
+  function myFunction() {
+    emailjs.send('service_o3h6bd8', 'template_6bjqk28', {
+      from_name: 'John',
+      to_name: 'Doe',
+      message: 'Usité seulement dans quote-part, la part que chacun doit payer ou recevoir dans la répartition d\'une somme.'
+    }).then(function(res) {
+      console.log(res);
+    })
+  }
 </script>
 </body>
 

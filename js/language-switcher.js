@@ -11,6 +11,10 @@ var english = document.getElementById("en"),
   professionalExperience = document.getElementById("professional-experience");
   training = document.getElementById("training");
   publications = document.getElementById("publications");
+  present1 = document.getElementById("translate-present1");
+  present2 = document.getElementById("translate-present2");
+  present3 = document.getElementById("translate-present3");
+  present4 = document.getElementById("translate-present4");
 
 english.addEventListener("click", function() {
     change(english, french);
@@ -47,6 +51,10 @@ function change(langOn, langOff) {
     professionalExperience.innerHTML = "Professional experience";
     training.innerHTML = "Training";
     publications.innerHTML = "Publications";
+    present1.innerHTML = "present";
+    present2.innerHTML = "present";
+    present3.innerHTML = "present";
+    present4.innerHTML = "present";
   }
 
   else if (langOn.innerHTML.trim() == "FR") {
@@ -66,5 +74,9 @@ function change(langOn, langOff) {
     professionalExperience.innerHTML = "Expérience professionnelle";
     training.innerHTML = "Formation";
     publications.innerHTML = "Publications";
+    present1.innerHTML = "présent"
+    present2.innerHTML = "présent"
+    present3.innerHTML = "présent"
+    present4.innerHTML = "présent"
   }
 }

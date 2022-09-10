@@ -55,6 +55,7 @@ $(document).ready(function(){
                 }
             },
             submitHandler: function(form) {
+                console.log('dfdfsdfdfdsfs');
                 $(form).ajaxSubmit({
                     type:"POST",
                     data: $(form).serialize(),
@@ -79,6 +80,11 @@ $(document).ready(function(){
                 })
             }
         })
+
+
+      $('#contactForm').on('submit',function(){
+        console.log('kljfdskjdfsjkldsf')
+      });
     })
         
  })(jQuery)
