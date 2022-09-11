@@ -122,24 +122,18 @@
             <div class="col-xl-12 col-lg-12">
                 <div class="welcome-info">
                     <h2 id="career">Parcours</h2>
-                    <div class="d-flex justify-content-between">
-                       <div>
-                           <button type="button" class="button button-contactForm boxed-btn" data-toggle="modal"
-                                   data-target="#experience-professional-modal">Expérience professionnelle
-                           </button>
-                       </div>
+                    <div class="d-md-flex justify-content-md-between">
+                        <button type="button" class="button button-contactForm boxed-btn" data-toggle="modal"
+                                data-target="#experience-professional-modal">Expérience professionnelle
+                        </button>
 
-                       <div>
-                           <button type="button" class="button button-contactForm boxed-btn" data-toggle="modal"
-                                   data-target="#training-modal">Formation
-                           </button>
-                       </div>
+                        <button type="button" class="button button-contactForm boxed-btn" data-toggle="modal"
+                                data-target="#training-modal">Formation
+                        </button>
 
-                        <div>
-                            <button type="button" class="button button-contactForm boxed-btn" data-toggle="modal"
-                                    data-target="#publications-modal">Publications
-                            </button>
-                        </div>
+                        <button type="button" class="button button-contactForm boxed-btn" data-toggle="modal"
+                                data-target="#publications-modal">Publications
+                        </button>
                     </div>
                 </div>
             </div>
@@ -977,7 +971,9 @@ Trois-Chênes, HUG (GE)"
                         </div>
 
                         <div class="form-group mt-3">
-                            <button class="button button-contactForm boxed-btn" onclick="myFunction()" type="button">Envoyer Email</button>
+                            <button class="button button-contactForm boxed-btn" onclick="myFunction()" type="button">
+                                Envoyer Email
+                            </button>
                         </div>
                     </form>
                 </div>
@@ -1086,68 +1082,69 @@ Trois-Chênes, HUG (GE)"
 <script src="js/jquery.ajaxchimp.min.js"></script>
 <script src="js/jquery.form.js"></script>
 <script src="js/jquery.validate.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/localization/messages_fr.js"></script>
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/localization/messages_fr.js"></script>
 <script src="js/mail-script.js"></script>
 
 <script src="js/main.js"></script>
 <script src="js/language-switcher.js"></script>
 <script>
-  $('#datepicker').datepicker({
-    iconsLibrary: 'fontawesome',
-    icons: {
-      rightIcon: '<span class="fa fa-caret-down"></span>'
-    }
-  });
-  $('#datepicker2').datepicker({
-    iconsLibrary: 'fontawesome',
-    icons: {
-      rightIcon: '<span class="fa fa-caret-down"></span>'
-    }
+    $('#datepicker').datepicker({
+        iconsLibrary: 'fontawesome',
+        icons: {
+            rightIcon: '<span class="fa fa-caret-down"></span>'
+        }
+    });
+    $('#datepicker2').datepicker({
+        iconsLibrary: 'fontawesome',
+        icons: {
+            rightIcon: '<span class="fa fa-caret-down"></span>'
+        }
 
-  });
+    });
 </script>
 <script>
-  function reveal() {
-    var reveals = document.querySelectorAll(".reveal");
+    function reveal() {
+        var reveals = document.querySelectorAll(".reveal");
 
-    for (var i = 0; i < reveals.length; i++) {
-      var windowHeight = window.innerHeight;
-      var elementTop = reveals[i].getBoundingClientRect().top;
-      var elementVisible = 150;
+        for (var i = 0; i < reveals.length; i++) {
+            var windowHeight = window.innerHeight;
+            var elementTop = reveals[i].getBoundingClientRect().top;
+            var elementVisible = 150;
 
-      if (elementTop < windowHeight - elementVisible) {
-        reveals[i].classList.add("active");
-      } else {
-        reveals[i].classList.remove("active");
-      }
+            if (elementTop < windowHeight - elementVisible) {
+                reveals[i].classList.add("active");
+            } else {
+                reveals[i].classList.remove("active");
+            }
+        }
     }
-  }
 
-  window.addEventListener("scroll", reveal);
+    window.addEventListener("scroll", reveal);
 
 </script>
 <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
 </script>
 <script type="text/javascript">
-  (function(){
-    emailjs.init("fXvlX0uv-Y6v1CzIL");
-    
-    var sendEmail = function() {
-     console.log('jkdfskldskljfsdklj')
-    }
-  })();
+    (function () {
+        emailjs.init("fXvlX0uv-Y6v1CzIL");
+
+        var sendEmail = function () {
+            console.log('jkdfskldskljfsdklj')
+        }
+    })();
 </script>
 <script>
-  function myFunction() {
-    emailjs.send('service_o3h6bd8', 'template_6bjqk28', {
-      from_name: 'John',
-      to_name: 'Doe',
-      message: 'Usité seulement dans quote-part, la part que chacun doit payer ou recevoir dans la répartition d\'une somme.'
-    }).then(function(res) {
-      console.log(res);
-    })
-  }
+    function myFunction() {
+        emailjs.send('service_o3h6bd8', 'template_6bjqk28', {
+            from_name: 'John',
+            to_name: 'Doe',
+            message: 'Usité seulement dans quote-part, la part que chacun doit payer ou recevoir dans la répartition d\'une somme.'
+        }).then(function (res) {
+            console.log(res);
+        })
+    }
 </script>
 </body>
 
