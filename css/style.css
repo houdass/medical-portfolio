@@ -3565,11 +3565,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .big-banner {
-    background-image: linear-gradient(to right, rgba(203,199,173, 0.6) , transparent), url(../img/banner/banner1.png);
+    background-image: url(../img/banner/banner1.png);
     background-size: cover;
     background-position: 67.5%;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     height: 100vh;
 }
 

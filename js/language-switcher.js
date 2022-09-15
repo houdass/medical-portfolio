@@ -7,7 +7,6 @@ var english = document.getElementById('en'),
   aboutMeIntro = document.getElementById('about-me-intro'),
   aboutMe1 = document.getElementById('about-me1'),
   aboutMe2 = document.getElementById('about-me2'),
-  aboutMe3 = document.getElementById('about-me3'),
   professionalExperience = document.getElementById('experience-professional-modal-label'),
   training = document.getElementById('training-modal-label'),
   publications = document.getElementById('publications-modal-label'),
@@ -55,14 +54,9 @@ function change(langOn, langOff) {
     intro2.innerHTML = 'Geriatrics training';
     intro3.innerHTML = 'Nutrition expert';
     aboutMe.innerHTML = 'About Dr. Saif Al Jarrah';
-    aboutMeIntro.innerHTML =
-      'Dr. Saif Al Jarrah is a specialist in general internal medicine, with training in geriatrics and emergency medicine, he was trained in Switzerland, where he performs his duties in the private sector in private practice and in hospital consultations.';
-    aboutMe1.innerHTML =
-      'He holds 2 medical degrees, a first in English (M.B.Ch.B) in Baghdad in 2004.';
-    aboutMe2.innerHTML =
-      'Then, a 2nd (Swiss federal diploma) in Geneva in 2010, he subsequently completed a 5-year training to complete his title of specialist in internal medicine in Switzerland as well as 2 years of training in geriatrics, he also completed during his years of academic training in hospital and extra-hospital emergency medicine (SMUR).';
-    aboutMe3.innerHTML =
-      'In addition to his clinical activities, he continues to publish on rare diseases and complex diagnostics.';
+    aboutMeIntro.innerHTML = 'Dr. Saif Al Jarrah is a medical specialist in general internal medicine with a background in geriatrics and expertise in nutrition. He was trained in Switzerland, where he performs his duties in the private sector in private practice, in hospital consultations and as a trainer in general internal medicine.';
+    aboutMe1.innerHTML = 'He holds 2 medical degrees, a first in English (M.B.Ch.B) in Baghdad in 2004, then a second (Swiss Federal Diploma) in Geneva in 2010. He then completed a 5-year training course to obtain his title of specialist in internal medicine in Switzerland as well as a 2-year training in geriatrics. He has also completed training in hospital and extra-hospital emergency medicine (SMUR).';
+    aboutMe2.innerHTML = 'Alongside his clinical activities, he conducts research and publications on rare diseases and complex diagnostics.';
     professionalExperience.innerHTML = 'Professional experience';
     training.innerHTML = 'Training';
     publications.innerHTML = 'Publications';
@@ -83,13 +77,11 @@ function change(langOn, langOff) {
     intro3.innerHTML = 'Expert en nutrition';
     aboutMe.innerHTML = 'À propos de Dr. Saif Al Jarrah';
     aboutMeIntro.innerHTML =
-      'Le Dr. Saif Al Jarrah est médecin spécialiste en médecine interne générale, avec une formation en gériatrie et la médecine d’urgence, il a été formé en Suisse, où il assume ses fonctions dans le secteur privé en cabinet et en consultations hospitalières';
-    aboutMe1.innerHTML =
-      'Il est titulaire de 2 diplômes de médecine, un premier anglais (M.B.Ch.B) à Bagdad en 2004.';
+      'Le Dr. Saif Al Jarrah est médecin spécialiste en médecine interne générale avec une formation en gériatrie et une expertise en nutrition. Il a été formé en Suisse, où il assume ses fonctions dans le secteur privé en cabinet, en consultations hospitalières et en tant que médecin formateur en médecine interne générale.';
+    aboutMe1.innerHTML = 'Il est titulaire de 2 diplômes de médecine, un premier anglais (M.B.Ch.B) à Bagdad en 2004, puis un deuxième (Diplôme fédéral suisse) à Genève en 2010. Il a achevé par la suite une formation de 5 ans pour obtenir son titre de spécialiste en médecine interne en Suisse ainsi qu\'une formation de 2 ans en gériatrie. Il a également achevé une formation en médecine d’urgence hospitalière et extrahospitalière (SMUR).'
+
     aboutMe2.innerHTML =
-      'Puis, un 2ème (diplôme fédérale suisse) à Genève en 2010, il a réalisé par la suite une formation de 5 ans pour achever son titre de spécialiste en médecine interne en Suisse ainsi que 2 ans de formation en gériatrie, il a également réalisé durant ses années de formation académique une formation en médecine d’urgence hospitalier et extra hospitalier (SMUR).';
-    aboutMe3.innerHTML =
-      'En plus de ses activités cliniques, il continue un travail de publication au sujet des maladies rares et des diagnostique complexes.';
+      'En parallèles à ses activités cliniques, il effectue des recherches et publications au sujet de maladies rares et de diagnostiques complexes.';
     professionalExperience.innerHTML = 'Expérience professionnelle';
     training.innerHTML = 'Formation';
     publications.innerHTML = 'Publications';
