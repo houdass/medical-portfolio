@@ -683,7 +683,7 @@ label {
 .welcome_area .welcome-info h2 {
     font-size: 18px;
     font-weight: 400;
-    color: #1f1f1f;
+    color: rgb(203,199,173);
     margin-bottom: 40px;
     position: relative;
     z-index: 9;
@@ -3570,6 +3570,13 @@ h1, h2, h3, h4, h5, h6 {
     background-position: 67.5%;
     background-repeat: no-repeat;
     height: 100vh;
+}
+
+@media (max-width: 480px) {
+    .big-banner {
+        background-image: url(../img/banner/banner2.png);
+        background-position: 55%;
+    }
 }
 
 .intro-text {
