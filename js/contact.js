@@ -62,7 +62,7 @@ $(document).ready(function () {
 
 
                     emailjs
-                        .send('service_o3h6bd8', 'template_6bjqk28', {
+                        .send('service_fcudhod', 'template_6bjqk28', {
                             name: formobj.find((obj) => obj.name === 'name').value,
                             subject: formobj.find((obj) => obj.name === 'subject').value,
                             email: formobj.find((obj) => obj.name === 'email').value,
