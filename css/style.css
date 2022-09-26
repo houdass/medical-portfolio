@@ -675,6 +675,7 @@ label {
 
     .boxed-btn {
         margin-top: 10px;
+        width: 100%;
     }
 }
 
@@ -3616,9 +3617,9 @@ h1, h2, h3, h4, h5, h6 {
 
 #publications-modal {
     background: white;
-    background-image: url(../img/image0.jpeg);
+    background-image: url(../img/image1.jpg);
     background-size: cover;
-
+    background-position: 92% 55%;
 }
 
 .modal-content {
